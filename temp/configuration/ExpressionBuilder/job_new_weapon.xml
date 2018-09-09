@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendDate.getCurrentDate()">
+  <variables name="row2.weaptype1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype2" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype2" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype3" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype3" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype4" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype4" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype1_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype1_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype2_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype2_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype3_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype3_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weaptype4_txt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.weapsubtype4_txt" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

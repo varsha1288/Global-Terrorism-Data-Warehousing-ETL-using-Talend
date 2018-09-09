@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_u9ao0NbtEeeidNzteT2izA" name="Dimensions" id="_m0YFINbtEeeidNzteT2izA" label="Dimensions" dataPackage="_0vbqwNbtEeeidNzteT2izA" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://C:/Users/varsha/Documents/Database31.accdb;memory=false" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/Users/varsha/Documents/Database31.accdb" SID="" SqlSynthax="SQL Syntax" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="memory=false" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_u9ao0dbtEeeidNzteT2izA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_u-AesNbtEeeidNzteT2izA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_u-AesdbtEeeidNzteT2izA" tag="Status" value=""/>
+    <taggedValue xmi:id="_u-AestbtEeeidNzteT2izA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_u-Aes9btEeeidNzteT2izA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_u-AetNbtEeeidNzteT2izA" tag="Description" value=""/>
+    <taggedValue xmi:id="_u-AetdbtEeeidNzteT2izA" tag="Author" value=""/>
+    <taggedValue xmi:id="_u-AettbtEeeidNzteT2izA" tag="otherParameter"/>
+    <taggedValue xmi:id="_vQO3INbtEeeidNzteT2izA" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+    <taggedValue xmi:id="_vQO3IdbtEeeidNzteT2izA" tag="DB ProductVersion" value="V2007 [VERSION_12]"/>
+    <taggedValue xmi:id="_vQO3ItbtEeeidNzteT2izA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_u9ao0tbtEeeidNzteT2izA" key="CONN_PARA_KEY_USERNAME" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_0vbqwNbtEeeidNzteT2izA" name="Dimensions" dataManager="_u9ao0NbtEeeidNzteT2izA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_0vbqwdbtEeeidNzteT2izA" name="DIMENSION_LOCATION" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_yqZ38NbtEeeidNzteT2izA" label="DIMENSION_LOCATION" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqwtbtEeeidNzteT2izA" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_0vbqw9btEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqxNbtEeeidNzteT2izA" name="COUNTRY" label="COUNTRY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqxdbtEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqxtbtEeeidNzteT2izA" name="REGION" label="REGION" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqx9btEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqyNbtEeeidNzteT2izA" name="PROVSTATE" label="PROVSTATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqydbtEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqytbtEeeidNzteT2izA" name="CITY" label="CITY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqy9btEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqzNbtEeeidNzteT2izA" name="LATITUDE" label="LATITUDE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqzdbtEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbqztbtEeeidNzteT2izA" name="LONGITUDE" label="LONGITUDE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbqz9btEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbq0NbtEeeidNzteT2izA" name="SPECIFCITY" label="SPECIFCITY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbq0dbtEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbq0tbtEeeidNzteT2izA" name="VICINITY" label="VICINITY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbq09btEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbq1NbtEeeidNzteT2izA" name="LOCATION" label="LOCATION" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbq1dbtEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_0vbq1tbtEeeidNzteT2izA" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_0vbq19btEeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_oTnlIdb_EeeidNzteT2izA" name="DIMENSION_EVENT" id="_oTnlINb_EeeidNzteT2izA" label="DIMENSION_EVENT" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_oTnlItb_EeeidNzteT2izA" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_oTnlI9b_EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_oTnlJNb_EeeidNzteT2izA" name="EVENTID" label="EVENTID" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_oTnlJdb_EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_oTnlJtb_EeeidNzteT2izA" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_oTxWINb_EeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_tZyNsdb_EeeidNzteT2izA" name="TABLE1" id="_tZyNsNb_EeeidNzteT2izA" label="TABLE1" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_tZyNstb_EeeidNzteT2izA" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_tZyNs9b_EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tZyNtNb_EeeidNzteT2izA" name="EVENTID" label="EVENTID" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_tZyNtdb_EeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_9mJWgdceEeeidNzteT2izA" name="DIMENSION_LOC" id="_9mJWgNceEeeidNzteT2izA" label="DIMENSION_LOC" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWgtceEeeidNzteT2izA" name="SKEY" label="SKEY" length="-1" sourceType="INTEGER" talendType="id_Integer">
+        <initialValue xmi:id="_9mJWg9ceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWhNceEeeidNzteT2izA" name="COUNTRY" label="COUNTRY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWhdceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWhtceEeeidNzteT2izA" name="REGION" label="REGION" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWh9ceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWiNceEeeidNzteT2izA" name="PROVSTATE" label="PROVSTATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWidceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWitceEeeidNzteT2izA" name="CITY" label="CITY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWi9ceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWjNceEeeidNzteT2izA" name="LONGITUDE" label="LONGITUDE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWjdceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWjtceEeeidNzteT2izA" name="LATITUDE" label="LATITUDE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWj9ceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWkNceEeeidNzteT2izA" name="VICINITY" label="VICINITY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWkdceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWktceEeeidNzteT2izA" name="LOCATION" label="LOCATION" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWk9ceEeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mJWlNceEeeidNzteT2izA" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_9mJWldceEeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_RWd6MNd-EeeidNzteT2izA" name="DIMENSION_DATE" id="_RWUJMNd-EeeidNzteT2izA" label="DIMENSION_DATE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6Mdd-EeeidNzteT2izA" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_RWd6Mtd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6M9d-EeeidNzteT2izA" name="IDAY" label="IDAY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RWd6NNd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6Ndd-EeeidNzteT2izA" name="IYEAR" label="IYEAR" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RWd6Ntd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6N9d-EeeidNzteT2izA" name="IMONTH" label="IMONTH" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RWd6ONd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6Odd-EeeidNzteT2izA" name="APPROXDATE" label="APPROXDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RWd6Otd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RWd6O9d-EeeidNzteT2izA" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RWd6PNd-EeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_RW6mIdd-EeeidNzteT2izA" name="TABLE2" id="_RW6mINd-EeeidNzteT2izA" label="TABLE2" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mItd-EeeidNzteT2izA" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_RW6mI9d-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mJNd-EeeidNzteT2izA" name="IDAY" label="IDAY" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RW6mJdd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mJtd-EeeidNzteT2izA" name="IYEAR" label="IYEAR" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RW6mJ9d-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mKNd-EeeidNzteT2izA" name="IMONTH" label="IMONTH" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RW6mKdd-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mKtd-EeeidNzteT2izA" name="APPROXDATE" label="APPROXDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RW6mK9d-EeeidNzteT2izA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RW6mLNd-EeeidNzteT2izA" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_RW6mLdd-EeeidNzteT2izA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Y8g8ANnjEee4T5IJaVQVmQ" name="NATIONALITY" id="_Y8XLANnjEee4T5IJaVQVmQ" label="NATIONALITY" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_Y8qF8NnjEee4T5IJaVQVmQ" name="SKEY" label="SKEY" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_Y8qF8dnjEee4T5IJaVQVmQ"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Y8qF8tnjEee4T5IJaVQVmQ" name="NATLY1" label="NATLY1" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Y8qF89njEee4T5IJaVQVmQ"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Y8qF9NnjEee4T5IJaVQVmQ" name="NATLY1_TXT" label="NATLY1_TXT" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Y8qF9dnjEee4T5IJaVQVmQ"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_Y8qF9tnjEee4T5IJaVQVmQ" name="UPDATEDATE" label="UPDATEDATE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Y8qF99njEee4T5IJaVQVmQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
